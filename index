@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
+    <?php header("Content-Type: text/html; charset=ISO-8859-1", true);?>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pagina Inicial</title>
+<h1>Login</h1>
+
+</head>
+<body>
+<header>
+<form id="cadcliente" method="post"  class="Formulario" action="login.php">
+
+
+                    idfuncionario<br>
+                    <input type="text" name="idfuncionario" class="campo" maxlength="40" required autofocus><br>
+                    nome<br>
+                    <input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+
+
+                    <input type="submit" value="salvar" class="btn"><br>
+
+                    <br><br>
+        </form>
+
+</form>
+</body>
+</html>
